@@ -1,1 +1,125 @@
-gallery
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+<section class="gallery" id="gallery">
+    <div class="gallery-container">
+        <h2 class="gallery-title">Чому Хатинка Лапок</h2>
+
+        <div class="gallery-slider">
+
+            <input type="radio" name="gallery" id="slide1" checked>
+            <input type="radio" name="gallery" id="slide2">
+            <input type="radio" name="gallery" id="slide3">
+            <input type="radio" name="gallery" id="slide4">
+            <input type="radio" name="gallery" id="slide5">
+
+            <div class="gallery-slides">
+
+                <div class="gallery-slide">
+                    <img
+                        src="./img/Rectangle 1.png"
+                        srcset="./img/Rectangle 1.png 1x, ./img/Rectangle 1@2x.png 2x"
+                        alt="Жінка годує безпритульного собаку на вулиці"
+                        class="gallery-img"
+                    >
+                    <p class="gallery-caption">
+                        Все почалося у 2015 році з кількох небайдужих людей та одного врятованого собаки.
+                        Сьогодні ми — один з найбільших притулків у регіоні, але наша мета незмінна:
+                        дати другий шанс тим, кого зрадили.
+                    </p>
+                </div>
+
+                <div class="gallery-slide">
+                    <img
+                        src="./img/Rectangle 2.png"
+                        srcset="./img/Rectangle 2.png 1x, ./img/Rectangle 2@2x.png 2x"
+                        alt="Собака до і після порятунку"
+                        class="gallery-img"
+                    >
+                    <p class="gallery-caption">
+                        Ми рятуємо, реабілітуємо та знаходимо люблячі родини для безпритульних тварин.
+                        Наша мета — не просто дати прихисток, а й забезпечити кожному «хвостику»
+                        щасливе та повноцінне життя в новій родині.
+                    </p>
+                </div>
+
+                <div class="gallery-slide">
+                    <img
+                        src="./img/Rectangle 3.png"
+                        srcset="./img/Rectangle 3.png 1x, ./img/Rectangle 3@2x.png 2x"
+                        alt="Команда ветеринарів та волонтерів з тваринами"
+                        class="gallery-img"
+                    >
+                    <p class="gallery-caption">
+                        «Хатинка Лапок» — це команда професійних ветеринарів, кінологів та десятків
+                        волонтерів, які щодня вкладають свою душу та час у турботу про наших підопічних.
+                        Ми працюємо 24/7, бо їхнє життя залежить від нас.
+                    </p>
+                </div>
+
+                <div class="gallery-slide">
+                    <img
+                        src="./img/Rectangle 4.png"
+                        srcset="./img/Rectangle 4.png 1x, ./img/Rectangle 4@2x.png 2x"
+                        alt="Майданчик для вигулу собак у притулку"
+                        class="gallery-img"
+                    >
+                    <p class="gallery-caption">
+                        Ми створили безпечний та комфортний простір. Кожна тварина отримує якісне
+                        харчування, своєчасну ветеринарну допомогу, проходить соціалізацію та гуляє
+                        на спеціально обладнаних майданчиках.
+                    </p>
+                </div>
+
+                <div class="gallery-slide">
+                    <img
+                        src="./img/Rectangle 5.png"
+                        srcset="./img/Rectangle 5.png 1x, ./img/Rectangle 5@2x.png 2x"
+                        alt="Дівчина обіймає собаку"
+                        class="gallery-img"
+                    >
+                    <p class="gallery-caption">
+                        Ваша допомога — безцінна. Ви можете взяти тваринку додому, стати волонтером,
+                        допомогти фінансово або інформаційно. Кожен маленький внесок наближає нас
+                        до великої мети — світу без безпритульних тварин.
+                    </p>
+                </div>
+
+            </div>
+
+            <label for="slide5" class="gallery-arrow gallery-arrow-prev gallery-prev-5" aria-label="Попередній слайд">&#8592;</label>
+            <label for="slide2" class="gallery-arrow gallery-arrow-next gallery-next-1" aria-label="Наступний слайд">&#8594;</label>
+
+            <label for="slide1" class="gallery-arrow gallery-arrow-prev gallery-prev-1" aria-label="Попередній слайд">&#8592;</label>
+            <label for="slide3" class="gallery-arrow gallery-arrow-next gallery-next-2" aria-label="Наступний слайд">&#8594;</label>
+
+            <label for="slide2" class="gallery-arrow gallery-arrow-prev gallery-prev-2" aria-label="Попередній слайд">&#8592;</label>
+            <label for="slide4" class="gallery-arrow gallery-arrow-next gallery-next-3" aria-label="Наступний слайд">&#8594;</label>
+
+            <label for="slide3" class="gallery-arrow gallery-arrow-prev gallery-prev-3" aria-label="Попередній слайд">&#8592;</label>
+            <label for="slide5" class="gallery-arrow gallery-arrow-next gallery-next-4" aria-label="Наступний слайд">&#8594;</label>
+
+            <label for="slide4" class="gallery-arrow gallery-arrow-prev gallery-prev-4" aria-label="Попередній слайд">&#8592;</label>
+            <label for="slide1" class="gallery-arrow gallery-arrow-next gallery-next-5" aria-label="Наступний слайд">&#8594;</label>
+
+            <div class="gallery-controls">
+                <label for="slide1" class="gallery-dot" aria-label="Слайд 1"></label>
+                <label for="slide2" class="gallery-dot" aria-label="Слайд 2"></label>
+                <label for="slide3" class="gallery-dot" aria-label="Слайд 3"></label>
+                <label for="slide4" class="gallery-dot" aria-label="Слайд 4"></label>
+                <label for="slide5" class="gallery-dot" aria-label="Слайд 5"></label>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
